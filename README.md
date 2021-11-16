@@ -2,7 +2,7 @@
 
 Name: Candida auris
 
-  Analysis: 
+Analysis: 
 
 1. fastqc
 2. Prinseq
