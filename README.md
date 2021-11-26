@@ -1,4 +1,4 @@
-# fungal_pathogen
+# Fungal_pathogen
 
 Name: Candida auris
 
