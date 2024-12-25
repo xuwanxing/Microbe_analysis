@@ -1,12 +1,10 @@
-# Fungal_pathogen
+# Pipeline details
 
 Name: Candida auris
 
-Analysis: 
-
 1. fastqc
-2. Prinseq
+2. prinseq
 3. bwa
-4. GATK
-5. RAxML
+4. gatk
+5. iqtree
 6. iTOL
