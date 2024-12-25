@@ -1,6 +1,6 @@
 # Pipeline details
 
-Name: Candida auris
+Name: Phylogenetic tree for Candida auris
 
 1. fastqc
 2. prinseq
