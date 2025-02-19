@@ -1,5 +1,5 @@
 gatk --java-options "-Xmx4G -Djava.io.tmpdir=./tmp" CombineGVCFs \
--R /nfs01data1/Groups/Liuningning/fungal_pathogen/analysis/sraTofastq/refs/GCA_002759435.2_Cand_auris_B8441_V2_genomic.fna \
+-R GCA_002759435.2_Cand_auris_B8441_V2_genomic.fna \
 -V DRR_all_raw.g.vcf.gz \
 -V ERR_all_raw.g.vcf.gz \
 -V SE_all_raw.g.vcf.gz \
