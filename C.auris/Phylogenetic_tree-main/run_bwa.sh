@@ -10,6 +10,6 @@ do
   brief_id=${med_id%%_*}
   export id
   export brief_id
-  sbatch_file=$(echo $prefix'bwa_SRR9.sbatch')
+  sbatch_file=$(echo $prefix'bwa.sbatch')
   sbatch $sbatch_file
 done
