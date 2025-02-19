@@ -3,7 +3,7 @@
 prefix=/bwa/
 
 
-for i in /qc/fastqs/SRR9/results/part3/*_1.fastq
+for i in /qc/fastqs/results/*_1.fastq
 do
   id=${i%_*}
   med_id=${id##*/}
