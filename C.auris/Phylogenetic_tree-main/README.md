@@ -8,5 +8,5 @@ Analysis:
 2. Prinseq
 3. bwa
 4. GATK
-5. RAxML
+5. iqtree
 6. iTOL
