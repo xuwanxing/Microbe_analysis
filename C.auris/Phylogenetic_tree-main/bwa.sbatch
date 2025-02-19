@@ -7,6 +7,6 @@
 #SBATCH --error bwa-%J.err
 
 
-/Software/Packages/bwa/bwa mem -t 4 -M -R "@RG\tID:${brief_id}\tSM:${brief_id}\tLB:WGS\tPL:Illumina" GCA_002759435.2_Cand_auris_B8441_V2_genomic.fna ${id}_1.fastq ${id}_2.fastq > /bwa/SRR9/${brief_id}.sam
+bwa mem -t 4 -M -R "@RG\tID:${brief_id}\tSM:${brief_id}\tLB:WGS\tPL:Illumina" GCA_002759435.2_Cand_auris_B8441_V2_genomic.fna ${id}_1.fastq ${id}_2.fastq > /bwa/SRR9/${brief_id}.sam
 
-samtools sort -@ 4 -o /bwa/SRR9/${brief_id}.bam /bwa/SRR9/${brief_id}.sam
+samtools sort -@ 4 -o /bwa/${brief_id}.bam /bwa/${brief_id}.sam
